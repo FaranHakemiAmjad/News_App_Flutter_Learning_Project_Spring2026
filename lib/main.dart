@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: TabsView(),
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Color.fromARGB(

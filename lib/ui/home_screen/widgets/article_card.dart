@@ -37,7 +37,7 @@ class ArticleCard extends StatelessWidget {
         borderRadius: BorderRadius.circular(20.0),
         child: SafeArea(
           child: Container(
-            height: 310,
+            // height: 310,
             decoration: BoxDecoration(
               color: Colors.transparent,
               border: BoxBorder.all(color: Colors.black54, width: 1.0, style: BorderStyle.solid),
@@ -46,6 +46,7 @@ class ArticleCard extends StatelessWidget {
             child: Padding(
               padding: const EdgeInsets.all(10.0),
               child: Column(
+                mainAxisSize: MainAxisSize.min,
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
